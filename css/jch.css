@@ -1,0 +1,353 @@
+header, footer, body{
+  font-family: 'Allerta', sans-serif;
+  margin: 0;
+}
+
+/*Header*/
+
+header{
+  background: white;
+  display: flex;
+  height: 110px;
+}
+
+header .logo {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.menu ul{
+  margin: 5px;
+  padding: 0;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+/* Prueba menu*/
+
+
+.menu {
+  font-size: 15px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.menu li{
+  display: inline-block;
+}
+
+
+/* Prueba menu*/
+
+.redes-header img {
+  margin: 9px;
+  margin-top: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.redes-header {
+  margin-right: 40px;
+}
+
+/*Header*/
+
+/*Body*/
+
+body {
+  background-color: white;
+  background-image: url("../imagenes/topography.png");
+}
+
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.texto {
+  color: white;
+  font-size: 20px;
+  width: 50%;
+  align-items: flex-start;
+  background-color: black;
+}
+
+h1, h2{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.container {
+  margin: 0px;
+  flex-wrap: wrap;
+}
+
+.subcontainer{
+  display: flex;
+  height: 200px;
+}
+
+.subcontainer-2 {
+  display: flex;
+  margin: 0;
+  height: 450px;
+}
+
+.mapa {
+  display: flex;
+  width: 50%;
+}
+
+iframe {
+  width: 100vw;
+}
+
+.foto-subcontainer-2{
+  width: 50%;
+}
+
+.foto-subcontainer-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.boton {
+  border-radius: 5px;
+  background: white;
+  color: black;
+  border: none;
+  padding: 7px 12px;
+  font-size: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.boton-signup {
+  border-radius: 5px;
+  background: black;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  font-size: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.formulario {
+  display: flex;
+  margin-left: 10px;
+}
+
+.lista-correo {
+  background: white;
+  width: 50%;
+}
+
+.texto-signup {
+  margin-top: 20px;
+  margin-left: 10px;
+ }
+
+.mc-field-group {
+  margin-left: 10px;
+}
+
+.texto h1{
+  margin-top: 40px;
+}
+/*Body*/
+
+/*footer*/
+
+footer {
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.redes img{
+  margin: 10px;
+}
+
+footer div{
+  margin-top: 20px;
+}
+
+footer h3{
+  margin: 0;
+}
+
+.logo-footer {
+  margin-top: 10px;
+}
+
+/*footer*/
+
+
+
+/*tablet*/
+
+@media screen and (max-width: 767px) {
+
+  header nav {
+    display: none;
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+  }
+
+  .logo {
+    margin-top: 5px;
+  }
+
+  .redes-header {
+    margin-right: 10px;
+  }
+
+  header figure{
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  header .logo {
+    margin-left: 0;
+  }
+
+  .foto-jch-2 {
+    display: none;
+  }
+
+  .foto-jch-1 {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .container {
+    margin-top: 100px;
+    margin: 0px;
+  }
+
+  .subcontainer{
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .texto {
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    background: white;
+    color: black;
+  }
+
+  .texto h1 {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .boton {
+    background: black;
+    color: white;
+    font-size: 20px;
+    width: 160px;
+    height: 20px;
+    margin: 0 auto;
+  }
+
+  .boton-signup {
+    background: white;
+    color: black;
+  }
+
+  .texto a {
+    margin-bottom: 10px;
+  }
+
+  .texto h1 {
+    margin-top:0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .texto a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .lista-correo{
+    width: 100%;
+    height: 300px;
+    background: black;
+    color: white;
+  }
+
+  .lista-correo h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .lista-correo .texto-signup {
+    display: flex;
+    justify-content: center;
+  }
+
+  .clear {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mc-field-group{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .subcontainer-2 {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+/*smartphone*/
